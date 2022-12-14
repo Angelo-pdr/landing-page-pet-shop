@@ -1,0 +1,185 @@
+
+
+.navbar{
+    background-color: #FFC100;
+    color: #f6f6f6;
+}
+
+.navbar .container .nav-item .nav-link{
+    color: #f6f6f6;
+}
+
+.navbar .container .nav-item .nav-link.active{
+    background-color: white;
+    color: #FFC100;
+    padding: 10px;
+}
+
+.navbar-toggler{
+    background-color: #f6f6f6;
+}
+
+.carousel-inner .carousel-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container .row .card .btn-primary {
+    width: 100%;
+    background-color: #FFC100;
+    border: none;
+}
+
+.container .row .card .card-link{
+    color: #FFC100;
+}
+
+#produtos{
+    background-color: #FFC100;
+}
+
+#produtos h3{
+    color: #f6f6f6;
+}
+
+#produtos .container .row .card-body p{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis ;
+}
+
+#cadastrar .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cadastrar .container #form{
+    background-color: #FFC100;
+    max-width: 1500px;
+    width: 100%;
+    min-height: 150px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    grid-gap: 20px;
+    text-align: center;
+    color: #f6f6f6;
+}
+
+#cadastrar .container #form p{
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#cadastrar .container #form input{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#cadastrar .container #form select{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+}
+
+#cadastrar .container #form button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+#cadastrar .container #form button:hover{
+    background-color: black;
+    color: #f6f6f6;
+}
+
+#dicas .container .row .card{
+    margin: 5px;
+    margin-right: 10px;
+    border: none;
+    max-width: 100%;
+}
+
+footer{
+    height: 50px;
+    padding: 10px;
+    background-color: #FFC100;
+    text-align: center;
+    color: #f6f6f6;
+
+}
+
+@media screen and (max-width: 640px) {
+    #cadastrar .container #form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cadastrar .container #form p{
+        width: 100%;
+        padding-right: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    #cadastrar .container #form input{
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    #cadastrar .container #form select{
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    #cadastrar .container #form button{
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+}
+@media screen and (min-width: 640px) and (max-width: 1023px){
+    #cadastrar .container #form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cadastrar .container #form p{
+        width: 100%;
+        padding-right: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    #cadastrar .container #form input{
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    #cadastrar .container #form select{
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    #cadastrar .container #form button{
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+    }
+}

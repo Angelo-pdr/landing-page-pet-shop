@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PET SHOP</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2 ">
+        <div class="container">
+            <h1 class="fs-2">Pet Shop</h1>
+            <button type="button" class="navbar-toggler mb-3" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item fw-bold"><a class="nav-link active"  href="#">Cachorro</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link"  href="#">Gatos</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link"  href="#cadastrar">Cadastrar</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link"  href="#produtos">Produtos</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link"  href="#servicos">Serviços</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="img/carousel/Home_Desk1.gif" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/carousel/Home_Desk2.gif" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/carousel/Home_Desk3.gif" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </section>
+    <section id="servicos" class="p-4">
+        <div class="container">
+            <h3 class="fs-3 text-center">Conheça nossos serviços</h3>
+            <div class="row p-4">
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center justify-content-center">
+                        <div class="card-body">
+                            <img src="img/card-servico/plando-de-sauda.webp" alt="plano-de-saude" style="width: 100px;">
+                            <h5 class="card-title fw-bold">Plano de Saude</h5>
+                            <p>Já pensou em dar um plano de saúde para o seu pet?</p>
+                                <a href="#" class="btn btn-primary mb-2">Contratar</a>
+                                <a href="#" class="card-link d-block">Meu Plano</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center justify-content-center">
+                        <div class="card-body">
+                            <img src="img/card-servico/pet-shop-prime.webp" alt="plano-de-saude" style="width: 100px;">
+                            <h5 class="card-title fw-bold">Pet Shop Prime</h5>
+                            <p>Garanta vários benefícios para você e seu pet.</p>
+                                <a href="#" class="btn btn-primary mb-2">Contratar</a>
+                                <a href="#" class="card-link d-block">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center justify-content-center">
+                        <div class="card-body">
+                            <img src="img/card-servico/hospedagem.webp" alt="plano-de-saude" style="width: 100px;">
+                            <h5 class="card-title fw-bold">Hospedagem</h5>
+                            <p>O hotel que seu cãozinho merece: um lar como o seu.</p>
+                                <a href="#" class="btn btn-primary mb-2">Agendar</a>
+                                <a href="#" class="card-link d-block">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center justify-content-center">
+                        <div class="card-body">
+                            <img src="img/card-servico/creche.webp" alt="plano-de-saude" style="width: 100px;">
+                            <h5 class="card-title fw-bold">Creche</h5>
+                            <p> Não deixe seu cão sozinho em casa enquanto trabalha!</p>
+                                <a href="#" class="btn btn-primary mb-2">Agendar</a>
+                                <a href="#" class="card-link d-block">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produtos">
+        <div class="container">
+            <h3 class="fs-3 text-center pt-4">Produtos populares</h3>
+            <div class="row p-4">
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/produtos/2492303_FRENTE.jpg" alt="plano-de-saude" style="width: 100px;">
+                            <p class="pt-1 pb-1 text-start">Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos</p>
+                                <a href="#" class="btn btn-primary mb-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/produtos/2387066_GP_Sachê_Gourmet_Gato_Adulto_Carne_85g_FRONTAL.jpg" alt="plano-de-saude" style="width: 100px;">
+                            <p class="pt-1 pb-1 text-start">Ração Úmida GranPlus Gourmet Sachê Ovelha para Cães Adultos</p>
+                            <a href="#" class="btn btn-primary mb-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/produtos/Bifinho_Kelco_Keldog_Criadores_Carne_e_Cereais_Raças_Pequenas_3105871_7.jpg" alt="plano-de-saude" style="width: 100px;">
+                            <p class="pt-1 pb-1 text-start">Tapete Higiênico Kelco Keldog Antiodor</p>
+                            <a href="#" class="btn btn-primary mb-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/produtos/ração-silica.jpg" alt="plano-de-saude" style="width: 100px;">
+                            <p class="pt-1 pb-1 text-start">Areia Sílica Me.Au Pet Cristais Médios para Gatos</p>
+                            <a href="#" class="btn btn-primary mb-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/produtos/2492303_FRENTE.jpg" alt="plano-de-saude" style="width: 100px;">
+                            <p class="pt-1 pb-1 text-start">Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos</p>
+                                <a href="#" class="btn btn-primary mb-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/produtos/2387066_GP_Sachê_Gourmet_Gato_Adulto_Carne_85g_FRONTAL.jpg" alt="plano-de-saude" style="width: 100px;">
+                            <p class="pt-1 pb-1 text-start">Ração Úmida GranPlus Gourmet Sachê Ovelha para Cães Adultos</p>
+                            <a href="#" class="btn btn-primary mb-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/produtos/Bifinho_Kelco_Keldog_Criadores_Carne_e_Cereais_Raças_Pequenas_3105871_7.jpg" alt="plano-de-saude" style="width: 100px;">
+                            <p class="pt-1 pb-1 text-start">Tapete Higiênico Kelco Keldog Antiodor</p>
+                            <a href="#" class="btn btn-primary mb-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-12 pb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/produtos/ração-silica.jpg" alt="plano-de-saude" style="width: 100px;">
+                            <p class="pt-1 pb-1 text-start">Areia Sílica Me.Au Pet Cristais Médios para Gatos</p>
+                            <a href="#" class="btn btn-primary mb-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="dicas" class="p-5">
+        <div class="container">
+            <h3 class="fs-3 text-center">Dicas Pet Shop</h3>
+
+            <div class="row mt-5 mb-5 ">
+                
+                <div class="card col-lg-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="img/dicas/cat-dog-petlove.jpg" class="img-fluid rounded-start" alt="Blog PetShop" style="height: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog PetShop</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis praesentium voluptatem voluptas! Sequi.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="img/dicas/chega-de-fogos.webp" class="img-fluid rounded-start" alt="Blog PetShop" style="height: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Conscientização</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis praesentium voluptatem voluptas! Sequi.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="img/dicas/caes-petlove.jpg" class="img-fluid rounded-start" alt="Blog PetShop" style="height: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Comportamento canino</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis praesentium voluptatem voluptas! Sequi.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="img/dicas/cachorro-medo-fogos-Petlove_(1).jpg" class="img-fluid rounded-start" alt="Blog PetShop" style="height: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Cães</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis praesentium voluptatem voluptas! Sequi.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="img/dicas/gato-escondido-petlove-630x420.webp" class="img-fluid rounded-start" alt="Blog PetShop" style="height: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Dicas</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis praesentium voluptatem voluptas! Sequi.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="img/dicas/gato-fogos-petlove.jpg" class="img-fluid rounded-start" alt="Blog PetShop" style="height: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Pesquisas</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis praesentium voluptatem voluptas! Sequi.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="cadastrar" class="p-5">
+        <div class="container">
+            <div id="form" class="p-4">
+                <p>Cadastre-se e fique sabendo das ofertas antes de todos!</p>
+                <input type="email" placeholder="seu@email.com">
+                <select name="" id="">
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gato</option>
+                    <option value="peixe">Peixe</option>
+                    <option value="valo4">Pássaro</option>
+                    <option value="valo4">Roedor</option>
+                    <option value="valo4">Reptil</option>
+                    <option value="valo4" selected>Qual o seu pet?</option>
+                </select>
+                <button type="submit">Cadastrar</button>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-5">
+        <p>&copy; Criando por Angelo</p>
+    </footer>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
